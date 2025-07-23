@@ -4,5 +4,112 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans';
 }
 
+/* regole container navbar */
+.container-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* regole prima meta navbar */
+.container-first-half{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* regole seconda meta navbar */
+.container-second-half{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* regole logo navbar */
+.logo{
+    display: flex;
+}
+
+/* regole primo ul */
+.container-primo-ul{
+    display: flex;    
+    padding-left: 35px;
+}
+
+.container-primo-ul ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 16px;
+    height: 74px;
+}
+
+.container-primo-ul ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: 74px;
+    line-height: 74px;
+}
+
+/* regole hover primo ul */
+.container-primo-ul ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+/* regole secondo ul */
+.container-secondo-ul{
+    display: flex;
+    padding-right: 20px;
+}
+
+.container-secondo-ul ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 16px;
+    height: 74px;
+}
+
+.container-secondo-ul ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: 74px;
+    line-height: 74px;
+}
+
+/* regole hover secondo ul */
+.container-secondo-ul ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+/* regole botone blu */
+.container-bottone a{
+    background-color: rgb(30, 116, 255);
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgb(30, 116, 255);
+    text-decoration: none ;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+
+}
+
+.container-bottone{
+    padding-right: 20px;
+}
+
+.container-bottone a:hover{
+    background-color: rgb(98, 157, 251);
+}
