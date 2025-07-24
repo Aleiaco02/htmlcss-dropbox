@@ -365,3 +365,31 @@ h3{
 .bottone-bianco:hover{
     background-color: rgb(181, 181, 181);
 }
+
+.container-griglia{
+    width: 60%;
+}
+
+.card-griglia{
+    width: calc((100% / 3) - 20px);
+    /* padding: 30px; */
+}
+
+.card-griglia-img img{
+    width: 90%;
+}
+
+.inner-griglia{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.titolo-griglia{
+    font-size: 34px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+.card-griglia p{
+    margin-top: 30px;
+}
