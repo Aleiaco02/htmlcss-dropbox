@@ -96,7 +96,7 @@
 
 /* regole botone blu */
 
-.container-bottone{
+#container-bottone{
     padding-right: 20px;
 }
 
@@ -119,10 +119,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 750px;
     background-color: rgb(147, 174, 203);
 }
 
-.container-titolo{
+.container-titolo-jumbotrone{
     width: 70%;
     display: flex;
     justify-content: center;
@@ -131,12 +132,12 @@
     padding-bottom: 40px;
 }
 
-.container-contenuto{
+.container-contenuto-jumbotrone{
     width: 70%;
     display: flex;
     justify-content: center;
 }
-.container-parte-scritta{
+.container-parte-scritta-jumbotrone{
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -144,18 +145,176 @@
     line-height: 24px;
 }
 
-.container-img {
+.container-img-jumbotrone{
     width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-img-jumbotrone img{
+    width: 115%;
+    height: auto;
+
+}
+
+.freccia i{
+    color: black;
+    font-size: 70px;
+    padding-top: 30px;
+}
+
+
+/* regole container abbonamenti */
+main{
     display: flex;
     justify-content: center;
 }
 
-.container-img img{
-    width: 100%;
-    height: auto;
+.container-abbonamenti{
+    width: 60%;
+    padding-top: 150px;
 }
 
-.freccia{
-    color: black;
-    font-size: 70px;
+#titolo-abbonamenti{
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bottone-abbonamenti-selezionato{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 5px solid rgb(30, 116, 255);
+}
+
+.bottone-abbonamenti-non-selezionato{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+}
+
+.container-bottoni{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.sezione-abbonamenti{
+    display: flex;
+    gap: 50px;
+}
+
+.sezione-abbonamenti-text{
+    display:flex ;
+    gap: 50px;
+   
+}
+
+#primo-testo{
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+  padding: 10px 100px; 
+}
+
+#secondo-testo{
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 10px 100px; 
+}
+
+#terzo-testo{
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 10px 100px; 
+}
+.container-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+    
+.container-card h3{
+    margin-bottom: 25px;
+}
+
+.mese{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: rgb(187, 187, 187);
+}
+
+.container-primo-ul-card{
+    list-style-type: none;
+}
+
+.container-primo-ul-card li{
+    padding-bottom: 20px;
+}
+
+.container-bottone-blu{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.acquista-ora {
+    color: rgb(8, 59, 243);
+}
+
+.linea{
+    width: 55px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+h5{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.titolo-card{
+    font-size: 17px;
+    text-align: center;
+    padding: 7px 0px;
+    border-bottom: 1px solid gray ;
+    font-weight: normal;
+}
+
+.padding{
+    padding: 30px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+.container-card-orizzontale{
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 40px;
+}
+
+.card-orizzontale{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.container-card-orizzontale h2{
+    font-size: 17px;
+}
+
+.enterprice{
+    padding: 35px 0px 15px 0px;
+}
+
+.testo-container-orizzontale{
+    padding: 40px 20px;
 }
