@@ -393,3 +393,21 @@ h3{
 .card-griglia p{
     margin-top: 30px;
 }
+
+.container-scopridipiu{
+    width: 60%;
+    margin-top: 250px;
+}
+
+.scopridipiu{
+    width: 60%;
+}
+.scopridipiu h2{
+    font-size: 34px;
+    margin-bottom: 60px;
+}
+
+.link{
+    color: blue;
+}
+
