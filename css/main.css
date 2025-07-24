@@ -169,6 +169,8 @@
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-abbonamenti{
@@ -319,4 +321,47 @@ h3{
 .testo-container-orizzontale{
     padding: 40px 30px;
     width: 70%;
+}
+
+.container-partner{
+    width: 60%;
+    padding-top: 300px;
+    display: flex;
+}
+
+.container-partner-img {
+    width: 65%;
+}
+
+.container-partner-img img{
+    width: 100%;
+}
+
+.container-partner-text{
+    width: 35%;
+}
+
+.container-partner-text h3{
+    padding: 40px 0px 25px 40px;
+}
+
+.container-partner-text p{
+    padding: 0px 0px 30px 40px;
+    line-height: 25px;
+}
+
+.bottone-bianco{
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
+    font-size: 16px;
+    padding: 6px 12px;
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none ;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+.bottone-bianco:hover{
+    background-color: rgb(181, 181, 181);
 }
