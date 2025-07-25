@@ -175,7 +175,7 @@ main{
 
 .container-abbonamenti{
     width: 60%;
-    padding-top: 150px;
+    margin-top: 150px;
 }
 
 #titolo-abbonamenti{
@@ -397,6 +397,7 @@ h3{
 .container-scopridipiu{
     width: 60%;
     margin-top: 250px;
+    margin-bottom: 250px;
 }
 
 .scopridipiu{
@@ -411,3 +412,61 @@ h3{
     color: blue;
 }
 
+.container-footer{
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-griglia-footer{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elemento-footer{
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.elemento-footer ul{
+    list-style-type: none;
+}
+
+.elemento-footer ul li {
+    padding-bottom: 15px;
+}
+
+.elemento-footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+
+}
+
+.elemento-footer h3{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 22px;
+}
+
+.container-lingua{
+    width: 70%;
+    align-self: center;
+}
+
+.lingua span{
+    color: rgb(188, 188, 188);
+    font-size: 16px;
+    border-top: 1px solid rgb(188, 188, 188);
+    padding-right: 25px;
+    padding-top: 40px;
+}
+
+.lingua{
+    margin-bottom: 40px;
+}
